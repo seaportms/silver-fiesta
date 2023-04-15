@@ -58,6 +58,7 @@ jobs:
       
     permissions:
       deployments: write      # to deploy to Pages
+      packages: write
       id-token: write
     # We create a release only if the version have been upgraded and we are on a default branch
     if: needs.check_if_version_upgraded.outputs.is_upgraded_version == 'true' && github.event_name == 'push'
