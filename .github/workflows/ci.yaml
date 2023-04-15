@@ -57,6 +57,9 @@ jobs:
       - check_if_version_upgraded
       
     permissions:
+      contents: write
+      repository-projects: write
+      actions: write
       deployments: write      # to deploy to Pages
       packages: write
       id-token: write
