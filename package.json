@@ -1,7 +1,7 @@
 {
     "name": "keycloakify-starter",
-    "homepage": "https://silver-fiesta.seaportms.xyz",
-    "version": "3.2.7",
+    "homepage": "https://seaportms.github.io/silver-fiesta",
+    "version": "3.2.8",
     "description": "A starter/demo project for keycloakify",
     "repository": {
         "type": "git",
