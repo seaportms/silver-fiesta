@@ -74,7 +74,7 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
                             </div>
                         </div>
                     )}
-                    <img src="https://www.seaportms.xyz/wp-content/uploads/2023/03/a88c9f09ba494b6471dcec07ffd782c4.png" className="w-14" />
+                    <img src="https://www.seaportms.xyz/wp-content/uploads/2023/03/a88c9f09ba494b6471dcec07ffd782c4.png" className="w-14" alt="Seaport Logo"/>
                     {!(auth !== undefined && auth.showUsername && !auth.showResetCredentials) ? (
                         displayRequiredFields ? (
                             <div className={getClassName("kcContentWrapperClass")}>
